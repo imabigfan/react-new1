@@ -5,7 +5,7 @@ import sections from "../../sections/sections";
 
 
 function CreateSection(section){
-    return <MenuItem key = {section.id} title = {section.title} imgURL = {section.imageUrl} size= {section.size} />
+    return <MenuItem key = {section.id} title = {section.title} imgURL = {section.imageUrl} size= {section.size} linkURL = {section.linkUrl} />
 };
 
 
